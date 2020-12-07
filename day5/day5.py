@@ -3,6 +3,7 @@ from operator import methodcaller
 class Plane():
     def __init__(self):
         
+    def find_empty_seats(self):
 
 class Seat():
     def __init__(self, code):
