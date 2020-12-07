@@ -37,9 +37,8 @@ def part1():
 
 def part2():
     with open("../files/day5", "r") as f:
-        with open("day_5_output", "w") as w:
-            seats = get_empties([code.strip() for code in f.readlines()])
-            print(seats)
+        seats = get_empties([code.strip() for code in f.readlines()])
+        print(seats)
 
 part1()
 part2()
