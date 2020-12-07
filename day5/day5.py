@@ -1,7 +1,8 @@
 from operator import methodcaller
 
 class Plane():
-    
+    def __init__(self):
+        
 
 class Seat():
     def __init__(self, code):
